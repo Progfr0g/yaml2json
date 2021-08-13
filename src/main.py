@@ -1,5 +1,5 @@
 import json
-from src.models import YAMLModel, JSONModel, JSONModel2
+from models import YAMLModel, JSONModel, JSONModel2
 import yaml
 import sys
 

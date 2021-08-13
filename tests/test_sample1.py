@@ -1,6 +1,6 @@
 import pytest
 import os.path
-from src.main import yaml_to_json
+from main import yaml_to_json
 
 def test_yaml_to_json():
 

@@ -145,3 +145,5 @@ class JSONModel3(BaseNestingSupport):
 
     sink_type: str = Field(source="sink.type")
     sink_s3_path: str = Field(source="sink.s3Path")
+
+# some changes 2

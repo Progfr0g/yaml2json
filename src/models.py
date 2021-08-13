@@ -139,7 +139,7 @@ class JSONModel3(BaseNestingSupport):
 
     tags_author: TagsModel = Field(source="tags")
 
-    max_concurrent_runs: int = 1
+    max_concurrent_runs: int = 2
 
     job_default_arguments: SourceModelJSON = Field(source="source")
 
